@@ -1,5 +1,5 @@
 import { Message } from "discord.js";
-import { DiscordClient } from "./DIscordClient";
+import { DiscordClient } from "./DiscordClient";
 
 export interface Command {
   name: string;

@@ -3,7 +3,7 @@ import { Message } from "discord.js";
 import { Args, Command } from "../structures/Models";
 import config from "../utils/Config";
 import { checkForVoice } from "../utils/Utils";
-import { DiscordClient } from "../structures/DIscordClient";
+import { DiscordClient } from "../structures/DiscordClient";
 
 /**
  * Checks if the query is a single track in a Youtube playlist (defined by the index parameter)

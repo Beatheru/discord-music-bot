@@ -1,5 +1,5 @@
 import { GatewayIntentBits } from "discord.js";
-import { DiscordClient } from "./structures/DIscordClient";
+import { DiscordClient } from "./structures/DiscordClient";
 
 export const Client = new DiscordClient({
   intents: [

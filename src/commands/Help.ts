@@ -1,7 +1,7 @@
 import { EmbedBuilder, Message } from "discord.js";
 import { Command } from "../structures/Models";
 import config from "../utils/Config";
-import { DiscordClient } from "../structures/DIscordClient";
+import { DiscordClient } from "../structures/DiscordClient";
 
 export default {
   name: "help",

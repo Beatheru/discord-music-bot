@@ -1,5 +1,5 @@
 import { EmbedBuilder, Message } from "discord.js";
-import { DiscordClient } from "../structures/DIscordClient";
+import { DiscordClient } from "../structures/DiscordClient";
 import { Command } from "../structures/Models";
 import config from "../utils/Config";
 import { checkForVoice } from "../utils/Utils";
