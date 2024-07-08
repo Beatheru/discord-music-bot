@@ -53,7 +53,7 @@ export class DiscordClient extends Client {
 
         try {
           message.delete();
-          await command.run(message);
+          await command.run(message, this);
         } catch (error) {
           console.log(error);
         }

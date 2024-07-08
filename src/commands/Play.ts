@@ -3,6 +3,7 @@ import { Message } from "discord.js";
 import { Args, Command } from "../structures/Models";
 import config from "../utils/Config";
 import { checkForVoice } from "../utils/Utils";
+import { DiscordClient } from "../structures/DIscordClient";
 
 /**
  * Checks if the query is a single track in a Youtube playlist (defined by the index parameter)
@@ -29,7 +30,7 @@ export default {
   description:
     "Search for a song to play or use a Youtube URL (playlists supported)",
   usage: `${config.prefix}play <url or search term>`,
-  async run(message: Message, additionalArgs?: Args) {
+  async run(message: Message, client: DiscordClient, additionalArgs?: Args) {
     if (!checkForVoice(message)) return;
 
     const player = useMainPlayer();
