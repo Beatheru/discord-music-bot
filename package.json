@@ -12,13 +12,15 @@
   "description": "",
   "dependencies": {
     "@discord-player/extractor": "^4.4.7",
-    "@distube/ytdl-core": "^4.13.4",
+    "@distube/ytdl-core": "github:soya-daizu/ytdl-core#sig-patch",
     "discord-player": "^6.6.10",
     "discord.js": "^14.15.3",
     "dotenv": "^16.4.5",
+    "download": "^8.0.0",
     "mediaplex": "^0.0.9"
   },
   "devDependencies": {
+    "@types/download": "^8.0.5",
     "@types/node": "^20.14.10",
     "prettier": "^3.3.2",
     "ts-node": "^10.9.2",

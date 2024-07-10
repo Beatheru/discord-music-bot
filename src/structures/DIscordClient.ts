@@ -52,7 +52,10 @@ export class DiscordClient extends Client {
         }
 
         try {
-          message.delete();
+          if (command.name !== "upload") {
+            message.delete();
+          }
+
           await command.run(message, this);
         } catch (error) {
           console.log(error);
