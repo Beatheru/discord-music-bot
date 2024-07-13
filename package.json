@@ -17,11 +17,14 @@
     "discord.js": "^14.15.3",
     "dotenv": "^16.4.5",
     "download": "^8.0.0",
-    "mediaplex": "^0.0.9"
+    "fastest-levenshtein": "^1.0.16",
+    "mediaplex": "^0.0.9",
+    "string-similarity": "^4.0.4"
   },
   "devDependencies": {
     "@types/download": "^8.0.5",
     "@types/node": "^20.14.10",
+    "@types/string-similarity": "^4.0.2",
     "prettier": "^3.3.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
