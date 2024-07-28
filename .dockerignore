@@ -1,0 +1,8 @@
+docker-compose.yml
+Dockerfile
+.git
+.gitignore
+node_modules/
+dist/
+.vscode/
+uploads/
