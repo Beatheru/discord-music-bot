@@ -25,8 +25,10 @@ export default {
 
     const player = useMainPlayer();
     const args = message.content.split("@");
-    const engine = findBestMatch(args[1], Object.values(QueryType)).bestMatch
-      .target as SearchQueryType;
+    const engine = args[1]
+      ? (findBestMatch(args[1], Object.values(QueryType)).bestMatch
+          .target as SearchQueryType)
+      : "auto";
     let query = args[0].split(/\s+/).slice(1).join(" ");
     if (engine === QueryType.FILE) {
       const files: string[] = [];

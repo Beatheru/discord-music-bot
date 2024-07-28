@@ -12,7 +12,7 @@
   "description": "",
   "dependencies": {
     "@discord-player/extractor": "^4.4.7",
-    "@distube/ytdl-core": "github:soya-daizu/ytdl-core#sig-patch",
+    "@distube/ytdl-core": "^4.13.5",
     "discord-player": "^6.6.10",
     "discord.js": "^14.15.3",
     "dotenv": "^16.4.5",
